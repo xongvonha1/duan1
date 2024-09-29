@@ -18,7 +18,7 @@ ul li a {
 
 header {
   background-color: #706715;
-  height: 120px;
+  height: 150px;
   width: 100%;
 }
 
@@ -31,7 +31,10 @@ header ul {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  
 }
+
+
 
 header ul li:nth-child(5) a:hover {
   color: yellowgreen;
@@ -48,8 +51,8 @@ header ul li:nth-child(2) {
 }
 
 header ul li:nth-child(2) input {
-  height: 40px;
-  width: 380px;
+  height: 50px;
+  width: 400px;
   border-radius: 15px;
   border: none;
   padding-left: 45px;
@@ -59,7 +62,7 @@ header ul li:nth-child(2) input {
 header ul li:nth-child(2) i {
   position: absolute;
   left: 12px;
-  line-height: 40px;
+  line-height: 50px;
   font-size: 20px;
   cursor: pointer;
 }
