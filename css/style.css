@@ -148,12 +148,52 @@ header ul li:nth-child(5) #fa-location-dot {
   } 
 
   header ul li:nth-child(5){
-    border-top: 1px solid burlywood;
+    border-top: 1px solid burlywood ;
   } 
   .container ul li {
     display: block;
     padding: 20px 0;
     min-width: 100%;
-    margin-left: 50px;
+    margin-left: 30px;
   }
+
+  .menu-bar ul{
+    display: block;
+    
+  }
+  .menu-bar ul li{
+    display: block;
+    padding: 20px;
+    min-width: 100%;
+    margin-left: 30px;
+  }
+}
+
+.menu-bar{
+background-color: #FFD500;
+}
+
+.menu-bar ul{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.menu-bar ul li{
+  transition: all 0.5 ease;
+  padding: 20px 10px;
+}
+
+.menu-bar ul li:hover{
+  background: #f7f4f4;
+}
+
+.menu-bar ul li a{
+  color: black;
+  font-size: 14px;
+}
+
+.menu-bar ul li a i{
+  margin:0 6px;
 }
