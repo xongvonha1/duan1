@@ -27,12 +27,43 @@
               value=""
               placeholder="Bạn tìm gì..."
             /><i class="fa-solid fa-magnifying-glass"></i>
-          </li>
+          </li >
           <li><a href="#"><i class="fa-solid fa-user"></i>Đăng nhập</a></li>
           <li><a href="#"><i class="fa-solid fa-cart-shopping"></i>Giỏ hàng</a></li>
-          <li>
+          <li id="address-form">
             <a href="#"><i class="fa-solid fa-location-dot" id="fa-location-dot"></i><button>Hà Nội <i class="fa-solid fa-angle-right" id="fa-angle-right"></i></button></i></a>
           </li>
+          <div class="address-form">
+            <div class="address-form-content">
+              <h2>Chọn địa chỉ nhận hàng <span id="close-tab">X</span></h2>
+              <p style="color: #98a2b3;">Địa chỉ đã chọn: </p> <label for="#" id="address-live"></label>
+              <form action="" method="post" class="form">
+                  
+                  <select name="" id="">
+                    <option value="#">--Chọn địa điểm</option>
+                    <option value="#">Hà Nội</option>
+                    <option value="#">Đà Nẵng</option>
+                    <option value="#">Hồ Chí Minh</option>
+                  </select>
+                  <select name="" id="">
+                    <option value="#">--Chọn Quận/Huyện</option>
+                    <option value="#">Hoàng Mai</option>
+                    <option value="#">Đống Đa</option>
+                    <option value="#">Cầu Giấy</option>
+                  </select>
+                  <select name="" id="">
+                    <option value="#">--Chọn Phường/Xã</option>
+                    <option value="#">Đại Kim</option>
+                    <option value="#">Vĩnh Hưng</option>
+                    <option value="#">Mai Động</option>
+                  </select>
+                  <input type="text" placeholder="Số nhà, tên đường (không bắt buộc).">
+                  <hr style="width:70%; margin: auto !important;">
+                  <button type="button">Xác nhận</button>
+                  
+              </form>
+            </div>
+          </div>
         </ul>
       </div>
     </header>
@@ -55,5 +86,7 @@
         </div>
       </div>
     </section>
+
+    <script src="./javascript/script.js"></script>
   </body>
 </html>
